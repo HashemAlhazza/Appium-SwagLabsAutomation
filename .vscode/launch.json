@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Pytest: debug all in file",
+      "type": "python",
+      "request": "launch",
+      "module": "pytest",
+      "args": ["-s", "-vv", "Tests/test_one.py"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
