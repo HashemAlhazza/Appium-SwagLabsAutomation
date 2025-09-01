@@ -1,10 +1,10 @@
-# 🧪 Swag Labs App Testing (Appium + Python + Pytest)
+# Swag Labs App Testing (Appium + Python + Pytest)
 
 This project demonstrates automated mobile application testing of the **Swag Labs** sample app using **Appium**, the **Python client library**, and **Pytest**. The tests are executed on an **Android Virtual Device (Pixel 3a API 35)** in **Android Studio** and leverage the **UiAutomator2** automation framework.
 
 ---
 
-## 📌 Project Structure
+## Project Structure
 
 ```
 .
@@ -20,17 +20,17 @@ This project demonstrates automated mobile application testing of the **Swag Lab
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ Positive and negative test scenarios
-- 📱 Android gestures: **Swipe**, **Scroll**, and **Start Activity**
-- ⚙️ Each test runs in an isolated app session to ensure independence
-- 📊 **Allure** test reports are generated for clear results
-- 🧩 Uses the **UiAutomator2** platform for Android automation
+- Positive and negative test scenarios
+- Android gestures: **Swipe**, **Scroll**, and **Start Activity**
+- Each test runs in an isolated app session to ensure independence
+- **Allure** test reports are generated for clear results
+- Uses the **UiAutomator2** platform for Android automation
 
 ---
 
-## ⚡ Tech Stack
+## Tech Stack
 
 - **Language**: Python
 - **Frameworks**: Appium, Pytest
@@ -40,29 +40,7 @@ This project demonstrates automated mobile application testing of the **Swag Lab
 
 ---
 
-## 🚀 Setup & Installation
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/your-username/swaglabs-appium-tests.git
-    cd swaglabs-appium-tests
-    ```
-
-2. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-    (Ensure you have an **Appium** server and **Android Studio** installed and configured.)
-
-3. **Configure capabilities**:
-    Update the path to the `.apk` file inside the capabilities object in your test files:
-    ```json
-    "app": "/absolute/path/to/SwagLabs.apk"
-    ```
-
----
-
-## ▶️ Running Tests
+## Running Tests
 
 To run the positive test cases:
 ```bash
@@ -76,7 +54,7 @@ pytest -s -v Tests/test_negative.py
 
 ---
 
-## 📊 Generating Reports
+## Generating Reports
 
 This project uses **Allure** for reporting. After running your tests, generate the report by running this command:
 
@@ -86,6 +64,9 @@ allure serve allure-report/
 
 ---
 
-## 📜 License
+## Author
 
-This project is for personal learning and is open for reference.
+Hashem Al-Hazzaa
+https://www.linkedin.com/in/hashem-al-hazzaa-032183183/
+
+"Android Studio will test your patience more than your code — even on a high-end machine. Be patient, because patience is the only real dependency in Android Automation!" 😅
