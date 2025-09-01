@@ -1,5 +1,3 @@
-# ```markdown
-
 # \# 🧪 Swag Labs App Testing (Appium + Python + Pytest)
 
 # 
@@ -18,29 +16,25 @@
 
 # ```
 
-# 
-
 # .
 
 # ├── Tests/
 
-# │   ├── test\\\_one.py        \\# Positive test cases
+# │   ├── test\_one.py        # Positive test cases
 
-# │   └── test\\\_negative.py   \\# Negative/expected failing cases
+# │   └── test\_negative.py   # Negative/expected failing cases
 
 # │
 
-# ├── allure-report/         \\# Generated Allure test reports
+# ├── allure-report/         # Generated Allure test reports
 
-# ├── SwagLabs.apk           \\# Application under test (edit path in capabilities)
+# ├── SwagLabs.apk           # Application under test (edit path in capabilities)
 
 # ├── requirements.txt
 
 # └── README.md
 
-# 
-
-# ````
+# ```
 
 # 
 
@@ -52,15 +46,15 @@
 
 # 
 
-# \- ✅ Positive and negative test scenarios.
+# \- ✅ Positive and negative test scenarios
 
-# \- 📱 Android gestures: \*\*Swipe\*\*, \*\*Scroll\*\*, and \*\*Start Activity\*\*.
+# \- 📱 Android gestures: \*\*Swipe\*\*, \*\*Scroll\*\*, and \*\*Start Activity\*\*
 
-# \- ⚙️ Each test runs in an isolated app session to ensure independence.
+# \- ⚙️ Each test runs in an isolated app session to ensure independence
 
-# \- 📊 \*\*Allure\*\* test reports are generated for clear results.
+# \- 📊 \*\*Allure\*\* test reports are generated for clear results
 
-# \- 🧩 Uses the \*\*UiAutomator2\*\* platform for Android automation.
+# \- 🧩 Uses the \*\*UiAutomator2\*\* platform for Android automation
 
 # 
 
@@ -92,11 +86,11 @@
 
 # 
 
-# 1\.  \*\*Clone the repository\*\*:
+# 1\. \*\*Clone the repository\*\*:
 
 # &nbsp;   ```bash
 
-# &nbsp;   git clone \[https://github.com/your-username/swaglabs-appium-tests.git](https://github.com/your-username/swaglabs-appium-tests.git)
+# &nbsp;   git clone https://github.com/your-username/swaglabs-appium-tests.git
 
 # &nbsp;   cd swaglabs-appium-tests
 
@@ -104,7 +98,7 @@
 
 # 
 
-# 2\.  \*\*Install dependencies\*\*:
+# 2\. \*\*Install dependencies\*\*:
 
 # &nbsp;   ```bash
 
@@ -116,7 +110,7 @@
 
 # 
 
-# 3\.  \*\*Configure capabilities\*\*:
+# 3\. \*\*Configure capabilities\*\*:
 
 # &nbsp;   Update the path to the `.apk` file inside the capabilities object in your test files:
 
@@ -142,13 +136,11 @@
 
 # pytest -s -v Tests/test\_one.py
 
-# ````
+# ```
 
 # 
 
 # To run the negative test cases:
-
-# 
 
 # ```bash
 
@@ -158,7 +150,7 @@
 
 # 
 
-# -----
+# ---
 
 # 
 
@@ -178,7 +170,7 @@
 
 # 
 
-# -----
+# ---
 
 # 
 
@@ -187,10 +179,4 @@
 # 
 
 # This project is for personal learning and is open for reference.
-
-# 
-
-# ```
-
-# ```
 
